@@ -1,0 +1,76 @@
+.hero-text-container {
+    padding-block: 20px;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    
+    color: var(--very-dark-blue);
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.paragraph button {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    color: var(--off-white);
+    background: var(--soft-red);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.paragraph button a {
+    text-decoration: none;
+    color: var(--off-white);
+}
+
+.paragraph button:hover {
+    color: var(--off-white);
+    background: var(--very-dark-blue);
+}
+
+.hero-img-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 900px){
+    
+    .hero-img-mobile {
+        display: none;
+    }
+
+    .hero-img-desktop {
+        display: block;
+    }
+
+    .hero-text-container {
+        padding-block: 0;
+        margin-bottom: 0;
+    }
+
+    .hero-text-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    .hero-text-container .paragraph {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: stretch;
+        gap: 20px;
+        padding-block: 0;
+    }
+}
