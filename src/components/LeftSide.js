@@ -16,7 +16,7 @@ const LeftSide = ({ heroImgMobile, heroImgDesktop, title, parag, btn }) => {
                 <div className="paragraph">
                     <p>{parag}</p>
                     <button>
-                        <a href="">{btn}</a>
+                        <a href="/ReactFrontendmentor-Project-news-homepage">{btn}</a>
                     </button>
                 </div>
             </div>
