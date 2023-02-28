@@ -6,7 +6,7 @@ const Box = ({ boxTitle, boxText }) => {
     return (
         <div className="side-box">
             <h4>
-                <a href="ReactFrontendmentor-Project-news-homepage">{boxTitle}</a>
+                <a href="/ReactFrontendmentor-Project-news-homepage">{boxTitle}</a>
             </h4>
             <p>{boxText}</p>
         </div>

@@ -11,7 +11,7 @@ const Col = ({colImg, colId, colTitle, colParag}) => {
             <div className="col-text-container">
                 <h3>{colId}</h3>
                 <h4>
-                    <a href="ReactFrontendmentor-Project-news-homepage">{colTitle}</a>
+                    <a href="/ReactFrontendmentor-Project-news-homepage">{colTitle}</a>
                 </h4>
                 <p>{colParag}</p>
             </div>
