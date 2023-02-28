@@ -30,6 +30,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL:
+https://priskinzsuzsanna.github.io/ReactFrontendmentor-Project-news-homepage/
 
 ## My process
 
